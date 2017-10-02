@@ -10,7 +10,8 @@ PackageTools:-SetProperty(NMPCT, "X-CloudURL", "https://maple.cloud");
 PackageTools:-SetProperty(NMPCT, "X-CloudXId", "behzad.samadi@gmail.com");
 
 # Overview
-PackageTools:-AddAttachment(NMPCT, "../doc/Overview.mw");
+PackageTools:-AddAttachment(NMPCT, "/Overview.mw" = "../doc/overview.mw");
+PackageTools:-AddAttachment(NMPCT, "/Examples/NMPC.mw" = "../doc/examples-nmpc.mw");
 
 read cat(pckg, ".mpl");
 savelib(convert(pckg,name),NMPCT);
