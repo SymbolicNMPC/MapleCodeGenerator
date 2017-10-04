@@ -5,7 +5,8 @@ NMPCT := cat(pckg,".maple");
 PackageTools:-Create(NMPCT);
 PackageTools:-SetProperty(NMPCT, "Author", "Behzad Samadi");
 PackageTools:-SetProperty(NMPCT, "Item List", "true");
-PackageTools:-SetProperty(NMPCT, "X-CloudGroup", "packages");
+PackageTools:-SetProperty(NMPCT, "X-CloudGroup", "packages"); 
+PackageTools:-SetProperty(NMPCT, "X-CloudId", "6323129933627392"); 
 PackageTools:-SetProperty(NMPCT, "X-CloudURL", "https://maple.cloud");
 PackageTools:-SetProperty(NMPCT, "X-CloudXId", "behzad.samadi@gmail.com");
 

@@ -1,0 +1,1 @@
+Maple Code Generator (MCG) is a set of tools to build numerical optimization algorithms in Maple. The existing solvers include gradient descent and Newton's method. You can generate code for the generated algorithm in other programming languages such as C, C#, Fortran, Java, JavaScript, Julia, MATLAB, Perl, Python, R and Visual Basic using the CodeGeneration package of Maple.
